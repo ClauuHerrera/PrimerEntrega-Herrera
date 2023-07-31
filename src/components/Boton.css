@@ -1,0 +1,12 @@
+.boton {
+    text-decoration: underline;
+    color:darkslategrey;
+    background-color:coral;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    
+    
+}

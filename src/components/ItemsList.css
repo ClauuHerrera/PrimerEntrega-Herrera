@@ -1,0 +1,10 @@
+.productos {
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 5px 10px;
+}   

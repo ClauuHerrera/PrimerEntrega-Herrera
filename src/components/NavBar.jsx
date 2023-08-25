@@ -1,21 +1,27 @@
-import React from 'react';
-import Button from './button';
+
 import CartWidget from './CartWidget';
-
 import "./NavBar.css";
+import LinkButton from './LinkButton'; 
+import { Link } from 'react-router-dom';
 
 
-export function NavBar() {
+ function NavBar() {
     return (
-        <nav className="navbar">
-            <h2 className='titlelogo'>Daylem</h2>
-            <div>
-                <Button text="Inicio" />
-                <Button text="contactos"/>
-                <Button text="catalogo"/>
-                <Button text="acerca"/>       
-            </div>
-            <CartWidget items="7" />
-        </nav>
-    );
-};
+    
+      <nav className='nav-style'>
+
+        <Link to="/" className='brand'>
+        <h2>Daylem</h2>
+      </Link>
+      <div className='nav-buttons'>
+        <LinkButton to="/">Inicio</LinkButton>
+        <LinkButton to="/categorias">Categorias</LinkButton>
+        <LinkButton to="/contacto">Contacto</LinkButton>
+        <LinkButton to="/nosotros">Nosotros</LinkButton>
+        
+      </div>
+      <CartWidget items={3} />
+      </nav>
+    )
+  };
+export default NavBar

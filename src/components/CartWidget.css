@@ -1,6 +1,10 @@
 .ico {
-    font-size: 30px;
-    color:indigo;
+    font-size: 20px;
+    color:blue;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin-right: 10px;
+}
+.cart-count{
+    font-size: 30px;
+    color: aqua;
 }

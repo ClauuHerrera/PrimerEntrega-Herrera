@@ -1,14 +1,22 @@
-.navbar{
-    background-color: burlywood;
-   
+
+.brand{
+    color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
+.nav-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; 
+  }
+  
 
-.titlelogo {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:20px;
-    background-color: brown;
-    border-radius: 10px;
-    padding: 10px 10px;
-}
-
-
+  .nav-buttons {
+    display: flex;
+    gap: 10px; 
+  }
+  
